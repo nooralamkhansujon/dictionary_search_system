@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+ <style media="screen">
+     .center-align{
+       text-align:center;
+       font-size:2.5rem;
+       color:#3333;
+       font-weight: bold;
+     }
+     .collection{
+       width:80%;
+       list-style: none;
+     }
+     .collection-header{
+       width:100%;
+       display:block;
+       border:1px solid #ddd;
+       padding:10px 10px;
+     }
+     .collection-item{
+       width:100%;
+       display:block;
+       border:1px solid #ddd;
+       padding:10px 10px;
+     }
+     .collection-item a{
+       text-decoration:none;
+     }
+     input[type='text']{
+       width:450px;
+       margin:10px 45px;
+       padding:10px 10px;
+       border:none;
+       border-bottom:2px solid #ddd;
+       font-size:1rem;
+       color:#333;
+       outline:none;
+     }
+
+ </style>
+</head>
+<body>
+
+  <div class="container">
+      <h1 class="center-align">
+        My Contacts
+      </h1>
+      <input type="text" id="filterinput" placeholder="Search names...">
+      <ul id="names" class="collection with-header">
+          <li class="collection-header">
+            <h5>A</h5>
+          </li>
+          <li class="collection-item">
+            <a href="#">Abe</a>
+          </li>
+          <li class="collection-item">
+            <a href="#">Adan</a>
+          </li>
+          <li class="collection-item">
+            <a href="#">Alan</a>
+          </li>
+          <li class="collection-item">
+            <a href="#">Atikul</a>
+          </li>
+          <li class="collection-header">
+            <h5>B</h5>
+          </li>
+          <li class="collection-item">
+            <a href="#">Beth</a>
+          </li>
+          <li class="collection-item">
+            <a href="#">Bill</a>
+          </li>
+          <li class="collection-item">
+            <a href="#">Brade</a>
+          </li>
+          <li class="collection-item">
+            <a href="#">Bob</a>
+          </li>
+
+          <li class="collection-header">
+            <h5>C</h5>
+          </li>
+          <li class="collection-item">
+            <a href="#">Carry</a>
+          </li>
+          <li class="collection-item">
+            <a href="#">Cathy</a>
+          </li>
+          <li class="collection-item">
+            <a href="#">Cartina</a>
+          </li>
+          <li class="collection-item">
+            <a href="#">Carim</a>
+          </li>
+      </ul>
+  </div>
+
+
+  <script  src="main.js">
+
+  </script>
+</body>
+</html>
